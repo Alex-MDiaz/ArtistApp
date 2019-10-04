@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local ="clr-namespace:ArtistApp.MarkupExtensions"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             mc:Ignorable="d"
+             x:Class="ArtistApp.Views.LoginPage">
+
+
+    <ScrollView BindingContext="{Binding Login}">
+
+        <AbsoluteLayout>
+
+            <!--Background-->
+            <Image AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" Source= "{local:EmbeddedImage ArtistApp.abstract.jpg}" Aspect="AspectFill"/>
+
+            <Grid AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" BackgroundColor="Transparent" >
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="AUTO"/>
+                    <RowDefinition Height="AUTO"/>
+                    <RowDefinition Height="AUTO"/>
+                </Grid.RowDefinitions>
+
+
+                <!--Logo-->
+                <Image Grid.Row="0" Source="logo_transparent.png" TranslationY="-30" />
+
+
+                <!--Credentials-->
+                <StackLayout Grid.Row="1" TranslationY="-80" Spacing="10" >
+
+                    <!--Email-->
+                    <Entry BackgroundColor="Transparent" 
+                           PlaceholderColor="GhostWhite"
+                           Placeholder="Email" 
+                           TextColor="GhostWhite"
+                           Text="{Binding Email, Mode=TwoWay}"/>
+
+                    <!--Password-->
+                    <Entry Placeholder="Password" 
+                           BackgroundColor="Transparent" 
+                           TextColor="GhostWhite" 
+                           PlaceholderColor="GhostWhite" 
+                           IsPassword="True"
+                           Text="{Binding Password, Mode=TwoWay}"/>
+
+                </StackLayout>
+
+
+                <!--SignIn/CreateAccount-->
+                <StackLayout Grid.Row="2" 
+                             TranslationY="-150" 
+                             Margin="100" >
+
+                    <!--SignIn-->
+                    <Button BackgroundColor="Black" 
+                            Opacity="0.9" 
+                            Text="Sign In" 
+                            TextColor="WhiteSmoke"
+                            CornerRadius="25"
+                            Command="{Binding SignIn, Mode=TwoWay}"/>
+
+                    <!--CreateAccount-->
+                    <Button Text="Register"
+                            BackgroundColor="Black" 
+                            Opacity=".9"
+                            TextColor="WhiteSmoke"
+                            CornerRadius="25"              
+                            Command="{Binding Register, Mode=TwoWay}"/>
+
+                    <ActivityIndicator/>
+
+                </StackLayout>
+
+            </Grid>
+
+        </AbsoluteLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ContentPage>

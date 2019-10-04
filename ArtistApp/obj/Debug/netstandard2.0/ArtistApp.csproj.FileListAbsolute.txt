@@ -1,0 +1,15 @@
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\ArtistApp.AssemblyInfoInputs.cache
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\ArtistApp.AssemblyInfo.cs
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\ArtistApp.dll
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\ArtistApp.pdb
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\bin\Debug\netstandard2.0\ArtistApp.deps.json
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\bin\Debug\netstandard2.0\ArtistApp.dll
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\bin\Debug\netstandard2.0\ArtistApp.pdb
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\ArtistApp.csprojAssemblyReference.cache
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\Views\FeedPage.xaml.g.cs
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\Views\Message.xaml.g.cs
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\obj\Debug\netstandard2.0\XamlC.stamp

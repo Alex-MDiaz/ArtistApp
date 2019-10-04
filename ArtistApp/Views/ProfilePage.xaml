@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             mc:Ignorable="d"
+             x:Class="ArtistApp.ProfilePage">
+    
+    
+
+
+
+    <Grid RowSpacing="0">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+        </Grid.RowDefinitions>
+
+        
+        
+        <!--Header-->
+        <Image Grid.Row="0" Source="mountains.jpg" Aspect="AspectFill" HeightRequest="180" />
+
+
+        <!--ProfileName/About-->
+       
+        <StackLayout Grid.Row="1" HorizontalOptions="Center" Margin="10"  >
+
+            <Label Text="Alex Madrigal"  TranslationY="10" FontSize="20" HorizontalOptions="Center" TextColor="Black"/>
+            <Label Text="About Me" Margin="10" HorizontalOptions="Center"/>
+            
+
+        </StackLayout>
+
+
+
+
+        <!--Likes.Followers.Posts-->
+
+        <Grid Grid.Row="2"  ColumnSpacing="0" Margin="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                <Button Text="Portfolio" FontSize="10" />
+            </StackLayout>
+
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" >
+                <Button Text="Following" FontSize="10"/>
+            </StackLayout>
+
+            <StackLayout Grid.Column="2" HorizontalOptions="Center">
+                <Button Text="Likes" FontSize="10"/>
+            </StackLayout>
+            
+            
+            
+            
+        </Grid>
+
+ 
+        <!--Post Button-->
+      
+        <Button Text="New Post" BackgroundColor="Black" TextColor="AntiqueWhite" Grid.Row="3"  />
+        
+        <!--PostsList-->
+
+
+
+
+
+        <!--ProfileImage-->
+        <controls:CircleImage Source="alex.jpg" TranslationY="20"  HeightRequest="20" WidthRequest="20" BorderColor="Black" BorderThickness=".5"/>
+
+        
+        
+        
+        
+        
+        
+       
+        
+
+
+    </Grid>
+    
+    
+    
+    
+    
+    
+</ContentPage>

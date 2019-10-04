@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\App.xaml</FilePath>
+      <Hash>A7-2B-5A-AD-75-DD-09-0E-34-AA-AE-3B-B9-94-12-96</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\Views\FeedPage.xaml</FilePath>
+      <Hash>D5-35-FF-FA-83-F5-0E-84-3C-96-8A-24-44-BE-70-12</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\Views\LoginPage.xaml</FilePath>
+      <Hash>83-4C-91-AA-63-7C-C4-83-8D-AD-85-EA-CF-74-5B-95</Hash>
+      <Properties>
+        <string>BindingContext</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\Views\MainPage.xaml</FilePath>
+      <Hash>E6-BC-DB-05-47-D4-B5-2F-A2-8C-4A-92-6D-DF-66-AF</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\Views\Message.xaml</FilePath>
+      <Hash>69-12-1E-40-68-7D-06-F2-05-E3-01-C2-08-09-12-88</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Alex MD\source\repos\ArtistApp\ArtistApp\Views\ProfilePage.xaml</FilePath>
+      <Hash>11-34-16-B8-FA-99-47-93-6F-F1-0F-61-E2-44-6C-85</Hash>
+      <Properties />
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>
